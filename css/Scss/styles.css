@@ -4,6 +4,24 @@
   box-sizing: border-box;
 }
 
+.primera {
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: one;
+}
+
+.segunda {
+  animation-duration: 8s;
+  animation-name: aparecer;
+  animation-iteration-count: one;
+}
+
+.tercera {
+  animation-duration: 12s;
+  animation-name: aparecer;
+  animation-iteration-count: one;
+}
+
 .main {
   min-height: 100vh;
   display: flex;
@@ -102,10 +120,28 @@
 
 .texto-historia {
   font-size: large;
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: one;
 }
 
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .pieDePagina {
   font-size: 15px;
+}
+
+@media (min-width: 10px) {
+  .imagen-historia {
+    height: 500 px;
+    width: 400 px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

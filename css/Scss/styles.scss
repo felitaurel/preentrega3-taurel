@@ -1,12 +1,23 @@
 $celeste-argentina: #84CAF0;
 $celeste-clarito: #b6e2fa;
-@mixin noticias {
-
+@mixin animacion($tiempo) {
+    animation-duration: $tiempo;
+    animation-name: aparecer;
+    animation-iteration-count: one;
 }
 *{
     margin:0;
     padding:0;
     box-sizing: border-box;
+}
+.primera{
+    @include animacion(4s)
+}
+.segunda{
+    @include animacion(8s)
+}
+.tercera{
+    @include animacion(12s)
 }
 .main{
     min-height: 100vh;
@@ -104,14 +115,26 @@ $celeste-clarito: #b6e2fa;
 }
 .texto-historia{
     font-size:large;
-
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count: one;
 }
-
+@keyframes aparecer{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 
 .pieDePagina{
     font-size: 15px;
 }
 
-@media (max-width: 684px){
-
+@media (min-width: 10px){
+    .imagen-historia{
+        height:500 px;
+        width: 400 px;
+    }
 }
