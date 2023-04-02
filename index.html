@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--SE USA FLEXBOX CUANDO LAS COSAS SE ALINEAN EN UNA SOLA DIRECCION, Y GRID CUANDO SE ALINEAN EN DOS DIMENSIONES-->
+<!--HACER LOS DISENOS PENSANDO PRIMERO EN LA VISTA MOBILE, Y DESPUES PONERLE UN MEDIA QUERY @ PARA DESKTOP-->
+<head>
+    <meta name="description" content="Seleccion Argentina">
+    <meta name="keywords" content="Argentina, Messi, Diego, Maradona, Mundial, Entradas, Tienda, Contacto">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccion Argentina de Futbol</title>
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/scss/styles.css">
+</head>
+
+<body>
+    <div class="contenedorGrid"> <!--ES NECESARIO ENGLOBAR EL HEADER MAIN Y FOOTER EN UN DIV Q SEA FLEX O GRIDS?? (HACER EN OTRAS PAGINAS)-->
+        <header class="header">
+            <img src="./assets/logoAFA.jpeg" alt="Logo seleccion" class="logo">
+            <nav class="navegacion">
+                <ul class="listaNavegacion">
+                    <li class="listaItem">
+                        <a class="linkNav" href="#">Noticias</a>
+                    </li>
+                    <li class="listaItem">
+                        <a class="linkNav" href="./pages/partidos.html">Proximos partidos</a>
+                    </li>
+                    <li class="listaItem">
+                        <a class="linkNav" href="./pages/historia.html">Historia</a>
+                    </li>
+                    <li class="listaItem">
+                        <a class="linkNav" href="./pages/tienda.html">Tienda</a>
+                    </li>
+                    <li class="listaItem">
+                        <a class="contactate" href="./pages/contactate.html">Contactate</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+    
+
+    
+        <main>
+            <div class="container-fluid">
+                <div class="row row-sm-3">
+                    <article class="noticias">
+                        <img src="./assets/noticias1.jpg">
+                        <h1>Argentina sub17 goleo con un diablito echeverri en modo Messi</h1>
+                        <p>La seleccion sub17 vencio a Venezuela en el debut del Sudamericano sub 17 con Echeverri y Ruberto como figuras.</p>
+                    </article>
+                </div>
+                <div class="row row-sm-3">
+                    <article class="noticias">
+                        <img src="./assets/noticias2.jpg">
+                        <h1>El mundial sub 20 se disputara en Argentina!</h1>
+                        <p>Luego de que la fifa le quite la organizacion del evento a Indonesia -por cuestiones politicas- la unica postulacion formal presente es la de argentina.</p>
+                    </article>
+                </div>
+                <div class="row row-sm-3">
+                    <article class="noticias">
+                        <img src="./assets/noticias3.jpg">
+                        <h1>Derrota aplastante en el amistoso</h1>
+                        <p>Los seleccionados de Scaloni derrotaron a Curazao 7-0, con hat-trick de Messi, y goles de Fernandez, Montiel, Di Maria y Gonzalez</p>
+                    </article>
+                </div>
+            </div>
+            
+        </main>
+    
+
+    
+        <footer class="footer">
+
+            <h1 class="pieDePagina">Asociacion argentina de football derechos reservados</h1>
+            <ul class="listaNavegacion">
+                <li class="listaItem">
+                    <a class="linkNav" href="">Instagram</a>
+                </li>
+                <li class="listaItem">
+                    <a class="linkNav" href="">Facebook</a>
+                </li>
+                <li class="listaItem">
+                    <a class="linkNav" href="">Twitter</a>
+                </li>
+            </ul>
+        </footer>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+    </div>
+</body>
+
+</html>

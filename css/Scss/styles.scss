@@ -1,0 +1,117 @@
+$celeste-argentina: #84CAF0;
+$celeste-clarito: #b6e2fa;
+@mixin noticias {
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+.div{
+    display: flex;
+}
+.header{
+    background-color: aqua;
+    background:$celeste-argentina;
+    color:$celeste-argentina;
+    padding: 10px;
+}
+.navegacion{
+    text-align: right;
+}
+.listaNavegacion{
+    list-style:none;
+}
+.listaItem{
+    display: inline-block;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    
+}
+.contenido{
+    align-items: center;
+    text-align: center;
+    margin: auto 0;
+}
+.imagenPrincipal{
+    height: 500px;
+    width: 500px;
+    
+}
+.h1{
+    text-align: center;
+    
+}
+
+.noticias{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.footer{
+    background-color: $celeste-argentina;
+    bottom: 0;
+    margin:auto 0;
+    position:fixed;
+    padding-bottom: 0;
+    width:100%;
+    height: 5%;
+}
+
+
+
+.form{
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.imagen-historia{
+    height:400px;
+    width:500px;
+
+}
+
+.column{
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    background-color: $celeste-clarito;    
+}
+
+.row{
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    background-color: $celeste-clarito;
+}
+.texto-historia{
+    font-size:large;
+
+}
+
+
+.pieDePagina{
+    font-size: 15px;
+}
+
+@media (max-width: 684px){
+
+}
