@@ -66,6 +66,7 @@
 .imagenPrincipal {
   height: 500px;
   width: 500px;
+  overflow:hidden;
 }
 
 .h1 {
@@ -102,6 +103,7 @@
 .imagen-historia {
   height: 400px;
   width: 500px;
+  overflow: hidden;
 }
 
 .column {
@@ -137,10 +139,27 @@
   font-size: 15px;
 }
 
-@media (min-width: 10px) {
+.error{
+  position: relative;
+  text-align: center;
+  height: 700px;
+}
+
+.imagen-error{
+  object-fit: contain;
+}
+
+.texto-sobre-error{
+  position:absolute;
+  top: 70%;
+  left: 40%;
+  background-color: aliceblue;
+}
+
+@media screen and (max-width: 767px) {
   .imagen-historia {
-    height: 500 px;
-    width: 400 px;
+    height: 70 px;
+    width: 60 px;
   }
 }
 
