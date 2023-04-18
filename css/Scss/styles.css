@@ -156,11 +156,28 @@
   background-color: aliceblue;
 }
 
+.container-historia{
+  overflow: hidden;
+  
+}
+
 @media screen and (max-width: 767px) {
+  
   .imagen-historia {
-    height: 70 px;
-    width: 60 px;
+    height: 100%;
+    width: 70%;
+    margin-left: 10%;
   }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  .imagen-historia {
+    height: 150%;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1024px){
+
 }
 
 /*# sourceMappingURL=styles.css.map */
