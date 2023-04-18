@@ -61,6 +61,7 @@
   align-items: center;
   text-align: center;
   margin: auto 0;
+  object-fit: contain;
 }
 
 .imagenPrincipal {
@@ -167,6 +168,10 @@
     height: 100%;
     width: 70%;
     margin-left: 10%;
+  }
+  .imagenPrincipal{
+    width: 90%;
+    
   }
 }
 
