@@ -80,6 +80,10 @@
   align-content: center;
   justify-items: center;
 }
+.imagen-noticias{
+  width: 70%;
+  margin-left: 15%;
+}
 
 .footer {
   background-color: #84CAF0;
@@ -166,12 +170,15 @@
   
   .imagen-historia {
     height: 100%;
-    width: 70%;
-    margin-left: 10%;
+    width: 100%;
   }
   .imagenPrincipal{
     width: 90%;
     
+  }
+  .imagen-noticias{
+    width: 100%;
+    margin-left: 0;
   }
 }
 
