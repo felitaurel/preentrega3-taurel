@@ -34,12 +34,12 @@
 }
 
 .header {
-  background-color: aqua;
   background: #84CAF0;
-  color: #84CAF0;
+  color: black;
   padding: 10px;
+  
 }
-
+/*
 .navegacion {
   text-align: right;
 }
@@ -51,11 +51,15 @@
 .listaItem {
   display: inline-block;
 }
-
+*/
+.navbar-custom{
+  color: #000000;
+  background-color: #84CAF0;
+}
 .logo {
   height: 100px;
   width: 100px;
-  float: left;
+  
 }
 
 .contenido {
