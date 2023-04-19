@@ -150,9 +150,6 @@
 
 .texto-historia {
   font-size: large;
-  animation-duration: 4s;
-  animation-name: aparecer;
-  animation-iteration-count: one;
 }
 
 @keyframes aparecer {
@@ -187,7 +184,11 @@
   overflow: hidden;
   
 }
-
+.animacion li:hover{
+  color: #111;
+  transform: scale(1.2);
+  text-shadow: none;
+}
 @media screen and (max-width: 767px) {
   
   .imagen-historia {
