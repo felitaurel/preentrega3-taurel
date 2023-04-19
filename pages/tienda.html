@@ -15,7 +15,7 @@
 
 <body>
     <header class="header">
-        <img src="../assets/logoAFA.jpeg" alt="Logo seleccion" class="logo">
+        <!--<img src="../assets/logoAFA.jpeg" alt="Logo seleccion" class="logo">
         <nav class="navegacion">
             <ul class="listaNavegacion">
                 <li class="listaItem">
@@ -34,6 +34,34 @@
                     <a class="contactate" href="./contactate.html">Contactate</a>
                 </li>
             </ul>
+        </nav>-->
+        <nav class="navbar navbar-expand-sm navbar-light navbar-custom">
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#opciones">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="logo">
+                <img src="../assets/logoAFA.jpeg" class="logo">
+            </div>
+            <div class="collapse navbar-collapse" id="opciones">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./partidos.html">Proximos partidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./historia.html">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contactate.html">Contactate</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
@@ -41,17 +69,17 @@
             <div class="col row">
                 <p>Camiseta titular 2022</p>
                 <img src="../assets/CamisetaTitular.jpeg" alt="foto-articulo">
-                <button>comprar articulo</button>
+                <button onclick="location.href='./error.html'" type="button">comprar articulo</button>
             </div>
             <div class="col row">
                 <p>Argentina Icon Shirt</p>
                 <img src="../assets/iconShirt.jpeg" alt="foto-articulo">
-                <button>comprar articulo</button>
+                <button onclick="location.href='./error.html'" type="button">comprar articulo</button>
             </div>
             <div class="col row">
                 <p>Piluso Seleccion</p>
                 <img src="../assets/PilusoSeleccion.jpeg" alt="foto-articulo">
-                <button>comprar articulo</button>
+                <button onclick="location.href='./error.html'">comprar articulo</button>
             </div>
         </div>
     </main>

@@ -3,18 +3,18 @@
 
 <head>
     <meta name="description" content="Seleccion Argentina">
-    <meta name="keywords" content="Argentina, Messi, Diego, Maradona, Mundial, Entradas, Tienda, Contacto">
+    <meta name="keywords" content="Argentina, Messi, Diego, Maradona, Mundial, Entradas, Tienda, Contacto, Error">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Seleccion Argentina de Futbol</title>
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/scss/styles.css">
 </head>
 
 <body>
-    <header class="header container-fluid col">
+    <header class="header">
         <nav class="navbar navbar-expand-sm navbar-light navbar-custom">
             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#opciones">
                 <span class="navbar-toggler-icon"></span>
@@ -29,7 +29,7 @@
                         <a class="nav-link" href="../index.html">Noticias</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Proximos partidos</a>
+                        <a class="nav-link" href="./partidos.html">Proximos partidos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./historia.html">Historia</a>
@@ -44,14 +44,20 @@
             </div>
         </nav>
     </header>
+    
     <main>
-        <div class="column contenido">
-        <img src="../assets/monumental.jpeg" alt="Foto del monumental?" class="imagenPrincipal">
-        <h1>Consegui tus entradas! proximo partido 24 de marzo 2023</h1>
-        <button onclick="location.href='./error.html'" type="button">Comprar entradas</button>
+        <div class="container-fluid error">
+            <img src="../assets/error.jpg" class="imagen-error">
+            <div class="texto-sobre-error">
+                Lo sentimos, la pagina que solicito no se encuentra disponible
+            </div>
         </div>
-    </main>
+            
 
+
+
+            
+        </main>
 
     <footer class="footer">
 
@@ -70,5 +76,4 @@
     </footer>
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
